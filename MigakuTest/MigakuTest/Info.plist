@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GTMaruTrial-Black.otf</string>
+		<string>GTMaruTrial-Regular.otf</string>
+		<string>GTMaruTrial-Bold.otf</string>
+		<string>GTMaruTrial-Light.otf</string>
+		<string>GTMaruTrial-Medium.otf</string>
+	</array>
+</dict>
+</plist>

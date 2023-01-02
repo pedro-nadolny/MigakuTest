@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE7DD51D294D3815007880D8 /* MigakuTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7DD51C294D3815007880D8 /* MigakuTestApp.swift */; };
+		BE7DD521294D3815007880D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7DD520294D3815007880D8 /* Assets.xcassets */; };
+		BE7DD525294D3815007880D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7DD524294D3815007880D8 /* Preview Assets.xcassets */; };
+		BE7DD557294D69BC007880D8 /* MigakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = BE7DD556294D69BC007880D8 /* MigakuCore */; };
+		BE7DD559294D69BC007880D8 /* MigakuDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = BE7DD558294D69BC007880D8 /* MigakuDesignSystem */; };
+		BE7DD55D294D6A10007880D8 /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = BE7DD55C294D6A10007880D8 /* Home */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE7DD52B294D3815007880D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7DD511294D3815007880D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7DD518294D3815007880D8;
+			remoteInfo = MigakuTest;
+		};
+		BE7DD535294D3815007880D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7DD511294D3815007880D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7DD518294D3815007880D8;
+			remoteInfo = MigakuTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE7DD519294D3815007880D8 /* MigakuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MigakuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7DD51C294D3815007880D8 /* MigakuTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigakuTestApp.swift; sourceTree = "<group>"; };
+		BE7DD520294D3815007880D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE7DD522294D3815007880D8 /* MigakuTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MigakuTest.entitlements; sourceTree = "<group>"; };
+		BE7DD524294D3815007880D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE7DD52A294D3815007880D8 /* MigakuTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MigakuTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7DD534294D3815007880D8 /* MigakuTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MigakuTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7DD548294D3AA1007880D8 /* MigakuCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MigakuCore; path = ../Packages/MigakuCore; sourceTree = "<group>"; };
+		BE7DD549294D3B40007880D8 /* Home */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Home; path = ../Packages/Home; sourceTree = "<group>"; };
+		BE7DD54A294D3B4E007880D8 /* MigakuDesignSystem */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MigakuDesignSystem; path = ../Packages/MigakuDesignSystem; sourceTree = "<group>"; };
+		BE7DD555294D64D0007880D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE7DD516294D3815007880D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7DD55D294D6A10007880D8 /* Home in Frameworks */,
+				BE7DD557294D69BC007880D8 /* MigakuCore in Frameworks */,
+				BE7DD559294D69BC007880D8 /* MigakuDesignSystem in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7DD527294D3815007880D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7DD531294D3815007880D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE7DD510294D3815007880D8 = {
+			isa = PBXGroup;
+			children = (
+				BE7DD547294D3AA1007880D8 /* Packages */,
+				BE7DD51B294D3815007880D8 /* MigakuTest */,
+				BE7DD51A294D3815007880D8 /* Products */,
+				BE7DD54C294D54D9007880D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE7DD51A294D3815007880D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DD519294D3815007880D8 /* MigakuTest.app */,
+				BE7DD52A294D3815007880D8 /* MigakuTestTests.xctest */,
+				BE7DD534294D3815007880D8 /* MigakuTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE7DD51B294D3815007880D8 /* MigakuTest */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DD555294D64D0007880D8 /* Info.plist */,
+				BE7DD51C294D3815007880D8 /* MigakuTestApp.swift */,
+				BE7DD520294D3815007880D8 /* Assets.xcassets */,
+				BE7DD522294D3815007880D8 /* MigakuTest.entitlements */,
+				BE7DD523294D3815007880D8 /* Preview Content */,
+			);
+			path = MigakuTest;
+			sourceTree = "<group>";
+		};
+		BE7DD523294D3815007880D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DD524294D3815007880D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE7DD547294D3AA1007880D8 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DD548294D3AA1007880D8 /* MigakuCore */,
+				BE7DD549294D3B40007880D8 /* Home */,
+				BE7DD54A294D3B4E007880D8 /* MigakuDesignSystem */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		BE7DD54C294D54D9007880D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE7DD518294D3815007880D8 /* MigakuTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7DD53E294D3815007880D8 /* Build configuration list for PBXNativeTarget "MigakuTest" */;
+			buildPhases = (
+				BE7DD515294D3815007880D8 /* Sources */,
+				BE7DD516294D3815007880D8 /* Frameworks */,
+				BE7DD517294D3815007880D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MigakuTest;
+			packageProductDependencies = (
+				BE7DD556294D69BC007880D8 /* MigakuCore */,
+				BE7DD558294D69BC007880D8 /* MigakuDesignSystem */,
+				BE7DD55C294D6A10007880D8 /* Home */,
+			);
+			productName = MigakuTest;
+			productReference = BE7DD519294D3815007880D8 /* MigakuTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE7DD529294D3815007880D8 /* MigakuTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7DD541294D3815007880D8 /* Build configuration list for PBXNativeTarget "MigakuTestTests" */;
+			buildPhases = (
+				BE7DD526294D3815007880D8 /* Sources */,
+				BE7DD527294D3815007880D8 /* Frameworks */,
+				BE7DD528294D3815007880D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7DD52C294D3815007880D8 /* PBXTargetDependency */,
+			);
+			name = MigakuTestTests;
+			productName = MigakuTestTests;
+			productReference = BE7DD52A294D3815007880D8 /* MigakuTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE7DD533294D3815007880D8 /* MigakuTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7DD544294D3815007880D8 /* Build configuration list for PBXNativeTarget "MigakuTestUITests" */;
+			buildPhases = (
+				BE7DD530294D3815007880D8 /* Sources */,
+				BE7DD531294D3815007880D8 /* Frameworks */,
+				BE7DD532294D3815007880D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7DD536294D3815007880D8 /* PBXTargetDependency */,
+			);
+			name = MigakuTestUITests;
+			productName = MigakuTestUITests;
+			productReference = BE7DD534294D3815007880D8 /* MigakuTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE7DD511294D3815007880D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BE7DD518294D3815007880D8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BE7DD529294D3815007880D8 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BE7DD518294D3815007880D8;
+					};
+					BE7DD533294D3815007880D8 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BE7DD518294D3815007880D8;
+					};
+				};
+			};
+			buildConfigurationList = BE7DD514294D3815007880D8 /* Build configuration list for PBXProject "MigakuTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE7DD510294D3815007880D8;
+			productRefGroup = BE7DD51A294D3815007880D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE7DD518294D3815007880D8 /* MigakuTest */,
+				BE7DD529294D3815007880D8 /* MigakuTestTests */,
+				BE7DD533294D3815007880D8 /* MigakuTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE7DD517294D3815007880D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7DD525294D3815007880D8 /* Preview Assets.xcassets in Resources */,
+				BE7DD521294D3815007880D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7DD528294D3815007880D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7DD532294D3815007880D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE7DD515294D3815007880D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7DD51D294D3815007880D8 /* MigakuTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7DD526294D3815007880D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7DD530294D3815007880D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE7DD52C294D3815007880D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7DD518294D3815007880D8 /* MigakuTest */;
+			targetProxy = BE7DD52B294D3815007880D8 /* PBXContainerItemProxy */;
+		};
+		BE7DD536294D3815007880D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7DD518294D3815007880D8 /* MigakuTest */;
+			targetProxy = BE7DD535294D3815007880D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE7DD53C294D3815007880D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE7DD53D294D3815007880D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BE7DD53F294D3815007880D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MigakuTest/MigakuTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MigakuTest/Preview Content\"";
+				DEVELOPMENT_TEAM = WT38KCE65L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MigakuTest/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.nadolny.MigakuTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE7DD540294D3815007880D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MigakuTest/MigakuTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MigakuTest/Preview Content\"";
+				DEVELOPMENT_TEAM = WT38KCE65L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MigakuTest/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.nadolny.MigakuTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE7DD542294D3815007880D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT38KCE65L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.nadolny.MigakuTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MigakuTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MigakuTest";
+			};
+			name = Debug;
+		};
+		BE7DD543294D3815007880D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT38KCE65L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.nadolny.MigakuTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MigakuTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MigakuTest";
+			};
+			name = Release;
+		};
+		BE7DD545294D3815007880D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT38KCE65L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.nadolny.MigakuTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MigakuTest;
+			};
+			name = Debug;
+		};
+		BE7DD546294D3815007880D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT38KCE65L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.nadolny.MigakuTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MigakuTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE7DD514294D3815007880D8 /* Build configuration list for PBXProject "MigakuTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7DD53C294D3815007880D8 /* Debug */,
+				BE7DD53D294D3815007880D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7DD53E294D3815007880D8 /* Build configuration list for PBXNativeTarget "MigakuTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7DD53F294D3815007880D8 /* Debug */,
+				BE7DD540294D3815007880D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7DD541294D3815007880D8 /* Build configuration list for PBXNativeTarget "MigakuTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7DD542294D3815007880D8 /* Debug */,
+				BE7DD543294D3815007880D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7DD544294D3815007880D8 /* Build configuration list for PBXNativeTarget "MigakuTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7DD545294D3815007880D8 /* Debug */,
+				BE7DD546294D3815007880D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE7DD556294D69BC007880D8 /* MigakuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MigakuCore;
+		};
+		BE7DD558294D69BC007880D8 /* MigakuDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MigakuDesignSystem;
+		};
+		BE7DD55C294D6A10007880D8 /* Home */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Home;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BE7DD511294D3815007880D8 /* Project object */;
+}
